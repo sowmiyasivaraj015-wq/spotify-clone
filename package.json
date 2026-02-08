@@ -1,0 +1,17 @@
+{
+  "name": "spotify-clone",
+  "version": "1.0.0",
+  "description": "A Spotify clone web application with login, dashboard, and music player",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js"
+  },
+  "keywords": ["spotify", "clone", "music", "player"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
