@@ -1,6 +1,6 @@
 # Spotify Clone Web Application
 
-A fully functional Spotify clone built with vanilla JavaScript frontend and Node.js + Express backend featuring login authentication, music dashboard, and HTML5 audio player.
+A fully functional Spotify clone built with vanilla JavaScript frontend and backend featuring login authentication, music dashboard, and HTML5 audio player.
 
 ## Features
 
@@ -141,4 +141,5 @@ Created by Sowmiya.
 ---
 
 **Enjoy the Spotify Clone! 🎵**
+
 
