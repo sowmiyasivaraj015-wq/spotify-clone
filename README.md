@@ -33,22 +33,6 @@ A fully functional Spotify clone built with vanilla JavaScript frontend and Node
 - `/api/songs` - Fetch song list
 - CORS enabled for frontend communication
 
-## Project Structure
-
-```
-spotify/
-├── backend/
-│   ├── server.js      (Express server setup & routes)
-│   └── data.js        (Hardcoded users & songs data)
-├── frontend/
-│   ├── index.html     (Login page)
-│   ├── dashboard.html (Main dashboard)
-│   ├── style.css      (Spotify-style styling)
-│   └── script.js      (Frontend logic - login, player, dashboard)
-├── package.json       (Dependencies)
-└── README.md          (This file)
-```
-
 ## Installation & Setup
 
 ### Prerequisites
@@ -82,11 +66,6 @@ Use these credentials to test login:
 - **Email:** user@spotify.com
 - **Password:** password123
 
-Or:
-
-- **Email:** jane@spotify.com
-- **Password:** password456
-
 ## How to Use
 
 ### Login
@@ -101,13 +80,6 @@ Or:
 3. Use sidebar to navigate sections
 4. View current user info in top right
 
-### Music Player
-- **▶ Button:** Play/Pause the current song
-- **⏮ Button:** Go to previous song
-- **⏭ Button:** Go to next song
-- **Seek Bar:** Click to jump to a position in the song
-- **Time Display:** Shows current time / total duration
-
 ## Available Songs
 
 The application includes 6 sample songs from SoundHelix for testing:
@@ -121,8 +93,8 @@ The application includes 6 sample songs from SoundHelix for testing:
 ## Technology Stack
 
 **Frontend:**
-- HTML5 (semantic markup, no inline scripts)
-- CSS3 (flexbox, gradients, transitions)
+- HTML5 
+- CSS3 
 - Vanilla JavaScript (no frameworks)
 - HTML5 Audio API
 
@@ -141,16 +113,15 @@ The application includes 6 sample songs from SoundHelix for testing:
 - ✅ Song seeking/scrubbing
 - ✅ Current time tracking
 - ✅ Sidebar navigation
-- ✅ Clean, interview-ready code
-- ✅ No syntax errors
-- ✅ Responsive design for mobile
 
 ## Notes
 
 - This is a demo application with dummy authentication (no real security)
 - Audio files are streamed from SoundHelix public samples
+- No real Spotify API is used
 - All data is in-memory and resets on server restart
 - Works in all modern browsers (Chrome, Firefox, Safari, Edge)
+- This project was created for evaluation purposes
 
 ## Possible Enhancements
 
@@ -165,8 +136,9 @@ The application includes 6 sample songs from SoundHelix for testing:
 
 ## Author
 
-Created as a learning project for entry-level web developers.
+Created by Sowmiya.
 
 ---
 
 **Enjoy the Spotify Clone! 🎵**
+
